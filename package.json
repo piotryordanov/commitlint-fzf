@@ -1,6 +1,10 @@
 {
   "name": "commitlint-fzf",
   "type": "module",
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
   "version": "1.0.0",
   "description": "A command line utility to fuzzy add best message practices to git commits. Powered by commitlint",
   "main": "dist/index.js",
